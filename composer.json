@@ -1,0 +1,19 @@
+{
+    "name": "nim-development/python-domotics",
+    "description": "Package for controlling python domotic scripts via Laravel Facade",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nim Development",
+            "email": "nick@nimdevelopment.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "NimDevelopment\\PythonDomotics\\": "src/"
+        }
+    }
+}
